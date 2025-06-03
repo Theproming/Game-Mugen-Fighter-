@@ -1,0 +1,39 @@
+;[TRANSFORMING COOLER V2: by KNIGHTMARE404] 
+
+;[SPECIAL THANKS]
+; MATTFV for Cooler 4th Form // Final Form Sprite Sheet && Addons
+
+[Info]
+name="Cooler Transform V2"
+displayname="Cooler"
+versiondate=25/06/2021
+mugenversion=1.1
+author="Knightmare"
+pal.defaults=1,2,3,4,5
+
+[Files]
+sprite=-/-.sff
+sound=-/-.snd
+anim=-/-.air
+cmd=-/-.cmd
+cns=-/-.cns
+st=-/-.cns
+stcommon=-/-.dll
+st1=-/-.dat
+pal1 = -/1.act
+pal2 = -/1.act
+pal3 = -/1.act
+pal4 = -/1.act
+pal5 = -/1.act
+pal6 = -/1.act
+pal7 = -/1.act
+pal8 = -/1.act
+pal9 = -/1.act
+pal10= -/1.act
+pal11= -/1.act
+pal12= -/1.act
+
+
+[Arcade]
+intro.storyboard=
+ending.storyboard=

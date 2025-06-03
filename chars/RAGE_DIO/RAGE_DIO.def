@@ -1,0 +1,33 @@
+[Info]
+name = "Rage_DIO"
+displayname = "RAGE_DIO"
+mugenversion = 1.1       ; [Char Academy - Version 03.10.22]
+author = "QINYAN"        ; Original char by: "InSeph" and [Knightmare404] 
+
+[files]
+anim = anim.air
+cmd = cmd.cmd
+cns = main.cns
+sound = snd.snd
+sprite = spr.sff
+stcommon = source.cns
+st = main.cns
+st2 = config.cns
+
+
+
+
+
+[Palette Keymap]
+a = 1 
+b = 2
+c = 3
+x = 4
+y = 5
+z = 6
+a2 = 7
+b2 = 8
+c2 = 9
+x2 = 10
+y2 = 11
+z2 = 12

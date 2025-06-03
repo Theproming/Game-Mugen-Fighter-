@@ -1,0 +1,380 @@
+
+[SoundDef]
+group = 0
+sample = 1
+file = 0-1.wav
+
+[SoundDef]
+group = 0
+sample = 2
+file = 0-2.wav
+
+[SoundDef]
+group = 0
+sample = 3
+file = 0-3.wav
+
+[SoundDef]
+group = 0
+sample = 4
+file = 0-4.wav
+
+[SoundDef]
+group = 0
+sample = 5
+file = 0-5.wav
+
+[SoundDef]
+group = 0
+sample = 6
+file = 0-6.wav
+
+[SoundDef]
+group = 0
+sample = 7
+file = 0-7.wav
+
+[SoundDef]
+group = 0
+sample = 8
+file = 0-8.wav
+
+[SoundDef]
+group = 0
+sample = 9
+file = 0-9.wav
+
+[SoundDef]
+group = 0
+sample = 10
+file = 0-10.wav
+
+[SoundDef]
+group = 0
+sample = 11
+file = 0-11.wav
+
+[SoundDef]
+group = 0
+sample = 12
+file = 0-12.wav
+
+[SoundDef]
+group = 0
+sample = 13
+file = 0-13.wav
+
+[SoundDef]
+group = 0
+sample = 14
+file = 0-14.wav
+
+[SoundDef]
+group = 0
+sample = 15
+file = 0-15.wav
+
+[SoundDef]
+group = 0
+sample = 16
+file = 0-16.wav
+
+[SoundDef]
+group = 0
+sample = 17
+file = 0-17.wav
+
+[SoundDef]
+group = 0
+sample = 18
+file = 0-18.wav
+
+[SoundDef]
+group = 0
+sample = 90
+file = 0-90.wav
+
+[SoundDef]
+group = 0
+sample = 91
+file = 0-91.wav
+
+[SoundDef]
+group = 0
+sample = 92
+file = 0-92.wav
+
+[SoundDef]
+group = 0
+sample = 93
+file = 0-93.wav
+
+[SoundDef]
+group = 0
+sample = 94
+file = 0-94.wav
+
+[SoundDef]
+group = 0
+sample = 95
+file = 0-95.wav
+
+[SoundDef]
+group = 0
+sample = 96
+file = 0-96.wav
+
+[SoundDef]
+group = 0
+sample = 20
+file = 0-20.wav
+
+[SoundDef]
+group = 0
+sample = 21
+file = 0-21.wav
+
+[SoundDef]
+group = 0
+sample = 22
+file = 0-22.wav
+
+[SoundDef]
+group = 0
+sample = 23
+file = 0-23.wav
+
+[SoundDef]
+group = 0
+sample = 24
+file = 0-24.wav
+
+[SoundDef]
+group = 0
+sample = 25
+file = 0-25.wav
+
+[SoundDef]
+group = 0
+sample = 26
+file = 0-26.wav
+
+[SoundDef]
+group = 0
+sample = 27
+file = 0-27.wav
+
+[SoundDef]
+group = 0
+sample = 28
+file = 0-28.wav
+
+[SoundDef]
+group = 0
+sample = 29
+file = 0-29.wav
+
+[SoundDef]
+group = 0
+sample = 30
+file = 0-30.wav
+
+[SoundDef]
+group = 0
+sample = 31
+file = 0-31.wav
+
+[SoundDef]
+group = 0
+sample = 331
+file = 0-331.wav
+
+[SoundDef]
+group = 0
+sample = 335
+file = 0-335.wav
+
+[SoundDef]
+group = 0
+sample = 351
+file = 0-351.wav
+
+[SoundDef]
+group = 0
+sample = 38
+file = 0-38.wav
+
+[SoundDef]
+group = 0
+sample = 39
+file = 0-39.wav
+
+[SoundDef]
+group = 0
+sample = 5656
+file = 0-5656.wav
+
+[SoundDef]
+group = 0
+sample = 30
+file = 0-30.wav
+
+[SoundDef]
+group = 0
+sample = 31
+file = 0-31.wav
+
+[SoundDef]
+group = 0
+sample = 32
+file = 0-32.wav
+
+[SoundDef]
+group = 0
+sample = 33
+file = 0-33.wav
+
+[SoundDef]
+group = 0
+sample = 34
+file = 0-34.wav
+
+[SoundDef]
+group = 0
+sample = 97
+file = 0-97.wav
+
+[SoundDef]
+group = 0
+sample = 98
+file = 0-98.wav
+
+[SoundDef]
+group = 0
+sample = 99
+file = 0-99.wav
+
+[SoundDef]
+group = 0
+sample = 100
+file = 0-100.wav
+
+[SoundDef]
+group = 0
+sample = 101
+file = 0-101.wav
+
+[SoundDef]
+group = 0
+sample = 102
+file = 0-102.wav
+
+[SoundDef]
+group = 0
+sample = 1022
+file = 0-1022.wav
+
+[SoundDef]
+group = 0
+sample = 103
+file = 0-103.wav
+
+[SoundDef]
+group = 0
+sample = 10323
+file = 0-10323.wav
+
+[SoundDef]
+group = 0
+sample = 104
+file = 0-104.wav
+
+[SoundDef]
+group = 0
+sample = 10422
+file = 0-10422.wav
+
+[SoundDef]
+group = 0
+sample = 105
+file = 0-105.wav
+
+[SoundDef]
+group = 0
+sample = 105
+file = 0-105.wav
+
+[SoundDef]
+group = 0
+sample = 106
+file = 0-106.wav
+
+[SoundDef]
+group = 0
+sample = 107
+file = 0-107.wav
+
+[SoundDef]
+group = 0
+sample = 108
+file = 0-108.wav
+
+[SoundDef]
+group = 0
+sample = 207
+file = 0-207.wav
+
+[SoundDef]
+group = 0
+sample = 19
+file = 0-19.wav
+
+[SoundDef]
+group = 0
+sample = 2890
+file = 0-2890.wav
+
+[SoundDef]
+group = 0
+sample = 34
+file = 0-34.wav
+
+[SoundDef]
+group = 0
+sample = 39
+file = 0-39.wav
+
+[SoundDef]
+group = 0
+sample = 40
+file = 0-40.wav
+
+[SoundDef]
+group = 0
+sample = 41
+file = 0-41.wav
+
+[SoundDef]
+group = 0
+sample = 42
+file = 0-42.wav
+
+[SoundDef]
+group = 0
+sample = 43
+file = 0-43.wav
+
+[SoundDef]
+group = 0
+sample = 44
+file = 0-44.wav
+
+[SoundDef]
+group = 0
+sample = 46
+file = 0-46.wav
+
+[SoundDef]
+group = 0
+sample = 22424
+file = 0-22424.wav

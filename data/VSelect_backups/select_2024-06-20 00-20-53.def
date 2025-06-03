@@ -1,0 +1,13 @@
+;---------------------------------------------------------------------
+[Characters]
+Muiku
+TC_Kaido_All_Forms
+randomselect
+;-----------------------
+[ExtraStages]
+stages\Artic Caverns.def
+
+;---------------------------------------------------------------------
+[Options]
+arcade.maxmatches = 6,1,1,0,0,0,0,0,0,0
+team.maxmatches = 4,1,1,0,0,0,0,0,0,0

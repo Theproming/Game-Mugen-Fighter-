@@ -1,0 +1,135 @@
+;------------------------------------------------------------------------------------------
+[Info]
+name= "Shiganshina District"
+author= Mugen Gamer
+;------------------------------------------------------------------------------------------
+[Camera]
+startx= 0
+starty= 0
+boundleft= 10
+boundright= -5
+boundhigh= 0
+boundlow= -9
+verticalfollow= .60
+floortension=60
+tension= 50
+overdrawhigh 	= 120
+overdrawlow 	= 120
+cuthigh 	= 0
+cutlow 		= 5
+zoomout	= .5 ; .5
+zoomin	= .8
+;------------------------------------------------------------------------------------------
+[PlayerInfo]
+;--- Player 1 ---
+p1startx = -70          
+p1starty = 0            
+p1startz = 0            
+p1facing = 1            
+ ;------------------------------------------------------------------------------------------
+;--- Player 2 ---
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+ ;------------------------------------------------------------------------------------------
+;--- Common ---
+leftbound  = -1000 
+rightbound =  1000 
+topbound  =  0     
+botbound  =  0
+;------------------------------------------------------------------------------------------
+[Scaling]
+topz     = 0       
+botz     = 50      
+topscale = 1       
+botscale = 1.2
+;------------------------------------------------------------------------------------------
+[Bound]
+screenleft = 15  
+screenright = 15  
+;------------------------------------------------------------------------------------------
+[StageInfo]
+zoffset = 220
+autoturn = 1
+resetBG = 1
+hires = 1
+;------------------------------------------------------------------------------------------
+[Shadow]
+intensity = 160
+color = 32,64,128
+yscale = .2
+fade.range = 0,0
+;------------------------------------------------------------------------------------------
+;[Reflection]
+intensity = 1
+;------------------------------------------------------------------------------------------
+[Music]
+bgmusic=sound\Levi  Devils of Paradis vs Marley Battle Theme.mp3
+bgmvolume= 255
+;------------------------------------------------------------------------------------------
+[BGDef]
+spr = Shiganshina District.sff
+debugbg=0
+;------------------------------------------------------------------------------------------
+
+
+
+[BG Céu]
+type = Normal
+spriteno = 0,0
+start = 0,0
+delta = 2,2
+Layerno = 0
+mask = 1
+velocity = .5,0
+tile = 1,0
+
+[BG smoke]
+type=anim
+actionno=9
+delta = 2,2
+start = 0,0
+scalestart = .5,.5
+ZoomDelta = 0.4
+
+
+[Begin action 9]
+smoke
+
+9,0,0,0, 4,,AS230D256 
+9,1,0,0, 4,,AS230D256 
+9,2,0,0, 4,,AS230D256 
+9,3,0,0, 4,, AS230D256
+9,4,0,0, 4,,AS230D256 
+9,5,0,0, 4,,AS230D256 
+9,6,0,0, 4,,AS230D256
+9,7,0,0, 4,, AS230D256
+9,8,0,0, 4,, AS230D256
+9,9,0,0, 4,, AS230D256
+9,10,0,0, 4,, AS230D256
+9,11,0,0, 4,,AS230D256 
+9,12,0,0, 4,, AS230D256
+
+[BG Titan]
+type = normal
+spriteno = 1,0
+start = 0,50
+delta = 2,2
+mask = 1
+
+
+
+
+
+[BG Base]
+type  = normal
+spriteno = 0,1
+delta = 2,2
+mask  = 1
+
+[BG Telhado]
+type  = normal
+spriteno = 0,2
+delta = 2,2
+mask  = 1

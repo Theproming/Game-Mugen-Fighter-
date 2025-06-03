@@ -1,0 +1,73 @@
+;-------------------------------------------------------------------------------------
+;--------------------------- [ WINDMASTER JIN BY OZALER27 ] --------------------------
+;-------------------------------------------------------------------------------------
+
+; Gracias por descargar / Thanks for Download
+; No olvides darle like al video para apoyarme y saber que te gustó
+; Si quieres puedes suscribirte a mi canal: 
+; https://www.youtube.com/channel/UCMO0S4YIAh3Myuc0Z73LrBA
+; Es gratis
+
+;-------------------------------------------------------------------------------------
+;-------------------------------- [ Créditos ] ---------------------------------------
+;-------------------------------------------------------------------------------------
+
+;Patrocinado por Youkai Painend
+
+;Sprites.
+;-Youkai Painend: https://www.deviantart.com/youkaipainend
+
+;Beta-Tester:
+;-Youkai Pained
+;-Teixeira's Mugen
+;-MichelST
+;-Carol Crislock
+;-Kewin Buster
+;-Ikarus Kuroi
+;-Johnny
+
+;FX, Sounds, Help, Etc:
+;-Rivelio
+;-Dry
+;-Teixeira's Mugen
+;-Buraku
+;-Petamynx
+;-Leanboox (God este man)
+;-Knightmare404
+
+;-------------------------------------------------------------------------------------
+;-------------------------------- [ MOVESET ] ---------------------------------------
+;-------------------------------------------------------------------------------------
+
+[-Basic Attacks-]
+
+- A: A Combo
+- B: B Combo
+- C: Dark blast (Chargeable)
+
+- X: Dodge
+
+- Down + A: Crouch Attack
+- Down + B: Launcher Attack
+- Down + C: Overhead Attack
+
+[-Special Attacks-]
+
+- Down, Forward            + A: Yuuto Sword Attack	
+- Down, Backward           + A: Koneko Punch
+- Down, Forward            + B: Akeno Thunder Storm
+- Down, Backward           + B: Issei Boosted Gear Impact	(Can be in Air)
+- Down, Forward            + C: Rossweise Valquirie Blast	
+- Down, Backward           + C: Zenovia and Irina Sword Dance 		
+
+[-Super Attacks-]
+
+-Forward, Down, Back + B: By The Gremory's Family Honor	
+
+[-Ultimate Attack-]
+
+- Forward, Down, Back + C: Fake Balance Breaker
+
+;-------------------------------------------------------------------------------------
+;----------------------------------- [ END ] -----------------------------------------
+;-------------------------------------------------------------------------------------

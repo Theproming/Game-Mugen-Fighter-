@@ -1,0 +1,66 @@
+;-------------------------------------------------------------------------------------
+;--------------------------- [ RIAS GREMORY BY OZALER27 ] ----------------------------
+;-------------------------------------------------------------------------------------
+
+; Gracias por descargar / Thanks for Download
+; No olvides darle like al video para apoyarme y saber que te gustó
+; Si quieres puedes suscribirte a mi canal: 
+; https://www.youtube.com/channel/UCMO0S4YIAh3Myuc0Z73LrBA
+; Es gratis
+
+;-------------------------------------------------------------------------------------
+;-------------------------------- [ Créditos ] ---------------------------------------
+;-------------------------------------------------------------------------------------
+
+
+;Sprites.
+;Youkai Pained
+;JackerSprites
+;HiyokoCTA99
+;LeonZ/Don1999
+
+;Beta-Tester:
+;-Youkai Pained
+;-Teixeira's Mugen
+;-MichelST
+;-Carol Crislock
+;-Kewin Buster
+;-Ikarus Kuroi
+;-Johnny
+
+;FX, Sounds, Help, Etc:
+;-Rivelio
+;-Dry
+;-Teixeira's Mugen
+;-Buraku
+;-Petamynx
+;-Leanboox (God este man)
+;-Knightmare404
+
+;-------------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------------
+
+[Info]
+name = "Rias Gremory"
+displayname = "Rias"
+versiondate = 21/04/2023
+mugenversion = 1.1
+author = "Ozaler27"
+pal.defaults = 1,2
+
+[Files]
+sprite = O27_RiasG.sff
+anim = O27_RiasG.air
+sound = O27_RiasG.snd
+cmd = O27_RiasG.cmd
+cns = O27_RiasG.cns
+stcommon = common1.cns
+st = O27_RiasG.cns
+st1 = IA.cns
+pal1 = RG1.act
+pal2 = RG2.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

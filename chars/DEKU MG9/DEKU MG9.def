@@ -1,0 +1,33 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Izuku Midoriya (Deku)"
+displayname = "Deku MG9"
+versiondate = 03/11/2020
+mugenversion = 1.1
+author = "MG9"
+pal.defaults = 
+
+[Files]
+sprite = Izuku Midoriya.sff
+anim = Izuku Midoriya.air
+sound = Izuku Midoriya.snd
+cmd = Izuku Midoriya.cmd
+cns = Izuku Midoriya.cns
+stcommon = common1.cns
+st = Izuku Midoriya.cns
+st1 = IA.cns
+st2 = Specials.cns
+st3 = Supers.cns
+st4 = Ultimate.cns
+st5 = Awakening.cns
+st6 = Visuals.cns
+st7 = FULL COLW.cns
+pal1 = Deku1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

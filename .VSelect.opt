@@ -1,0 +1,13 @@
+charcol.3 = 0
+vselect.version = 1.3.10.4
+opt.editcmd = notepad "%1"
+startup.load = 1
+opt.tooltips = 1
+opt.dropmode = 0
+opt.alwaysbackup = 1
+mugen.exe = G:\Project Kuliah\Game Fighter anime\project mppl game\Mugen 1.1 Dark Theme V2 2020\Anime fighter universe.exe
+mugen.hires = 0
+opt.width = 1319
+opt.height = 728
+opt.top = 0
+opt.left = 23

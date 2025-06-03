@@ -1,0 +1,45 @@
+;---------------------------------------------------------------------
+[Characters]
+Naruto_Ashura_JUS
+Sasuke_Rinnegan_JUS
+TC_Luffy Gear 5
+TC_Kaido_All_Forms
+Sukuna Manga V.4
+Sukuna
+Gojo de muleta
+Jotaro Kujo
+empty
+Aizen Sousuke
+O27_RiasG
+Cooler
+DEKU MG9
+Tanjiro_HK
+randomselect
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+;-----------------------
+[ExtraStages]
+stages\Artic Caverns.def
+stages\Shiganshina District.def
+stages\Dio's Mansion Stage.def
+stages\School MHA.def
+
+;---------------------------------------------------------------------
+[Options]
+arcade.maxmatches = 6,1,1,0,0,0,0,0,0,0
+team.maxmatches = 4,1,1,0,0,0,0,0,0,0

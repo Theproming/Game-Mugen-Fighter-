@@ -1,0 +1,26 @@
+
+[Info]
+name = "Gojo de muleta"
+displayname = "Gojo Satoru(kiko)"
+versiondate = 12/23/2020
+mugenversion = 1.1
+author = "Original by Joey, edited by Packmanmugen,edit MateoG9,resprite MeowBlast,resprite DINO"
+pal.defaults =1
+
+[Files]
+sprite = Satoru.sff
+anim = Satoru.air
+sound = Satoru.snd
+cmd = Satoru.cmd
+cns = Satoru.cns
+st = Satoru.cns
+stcommon = common1.cns
+st1 = Specials.cns
+st2 = Super.cns
+st3 = godmode.cns
+st4 = IA.cns
+
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

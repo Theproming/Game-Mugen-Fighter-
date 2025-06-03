@@ -1,0 +1,169 @@
+;------------------------------------------------------------------------------------------
+[Info]
+name= "School MHA"
+author= Mugen Gamer
+;------------------------------------------------------------------------------------------
+[Camera]
+startx= 0
+starty= 0
+boundleft= 10
+boundright= -5
+boundhigh= 0
+boundlow= -9
+verticalfollow= .60
+floortension=60
+tension= 50
+overdrawhigh 	= 120
+overdrawlow 	= 120
+cuthigh 	= 0
+cutlow 		= 5
+zoomout	= .5 ; .5
+zoomin	= .8
+;------------------------------------------------------------------------------------------
+[PlayerInfo]
+;--- Player 1 ---
+p1startx = -70          
+p1starty = 0            
+p1startz = 0            
+p1facing = 1            
+ ;------------------------------------------------------------------------------------------
+;--- Player 2 ---
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+ ;------------------------------------------------------------------------------------------
+;--- Common ---
+leftbound  = -1000 
+rightbound =  1000 
+topbound  =  0     
+botbound  =  0
+;------------------------------------------------------------------------------------------
+[Scaling]
+topz     = 0       
+botz     = 50      
+topscale = 1       
+botscale = 1.2
+;------------------------------------------------------------------------------------------
+[Bound]
+screenleft = 15  
+screenright = 15  
+;------------------------------------------------------------------------------------------
+[StageInfo]
+zoffset = 220
+autoturn = 1
+resetBG = 1
+hires = 1
+;------------------------------------------------------------------------------------------
+[Shadow]
+intensity = 160
+color = 32,64,128
+yscale = .2
+fade.range = 0,0
+;------------------------------------------------------------------------------------------
+;[Reflection]
+intensity = 1
+;------------------------------------------------------------------------------------------
+[Music]
+bgmusic=sound\You Say Run! Rock Cover.mp3
+bgmvolume= 255
+;------------------------------------------------------------------------------------------
+[BGDef]
+spr = School MHA.sff
+debugbg=0
+;------------------------------------------------------------------------------------------
+
+[BG Sky]
+Type = Normal
+SpriteNO = 0,0
+Mask = 1
+Start = 0,-10
+Delta = 2,2
+Tile = 1,0
+Velocity = -0.1,0
+
+
+[BG Base]
+type = normal
+Spriteno =0,1
+Delta=2,2
+Mask=1
+Start = 0,-10
+
+
+
+
+[BG Folhas 1]
+type  = anim
+actionno = 4110
+layerno = 0
+start = 0, 0
+delta = 2,2
+trans = none
+alpha = 256,0
+mask  = 1
+tile=1,1
+velocity= 2.1,2.2
+tilespacing = 1160,460
+sin.x=-46,200,0
+
+
+[Begin Action 4110]
+6,0, 0,0, 7
+6,1, 0,0, 7
+6,2, 0,0, 7
+6,3, 0,0, 7
+6,4, 0,0, 7
+6,5, 0,0, 7
+
+
+[BG Folhas 2]
+type  = anim
+actionno = 4120
+layerno = 1
+start = 100, 50
+delta = 2,2
+trans = none
+alpha = 256,0
+mask  = 1
+tile=1,1
+velocity=3.7,2.5
+tilespacing = 1260,1460
+sin.x=-46,200,0
+
+[Begin Action 4120]
+6,0, 0,0, 7
+6,1, 0,0, 7
+6,2, 0,0, 7
+6,3, 0,0, 7
+6,4, 0,0, 7
+6,5, 0,0, 7
+
+
+[BG Folhas 3]
+type  = anim
+actionno = 4130
+layerno = 1
+start = 200, 150
+delta = 2,2
+trans = none
+alpha = 256,0
+mask  = 1
+tile=1,1
+velocity=2.7,2.5
+tilespacing = 1260,2460
+sin.x=-46,200,0
+
+
+[Begin Action 4130]
+6,0, 0,0, 7
+6,1, 0,0, 7
+6,2, 0,0, 7
+6,3, 0,0, 7
+6,4, 0,0, 7
+6,5, 0,0, 7
+
+
+
+
+

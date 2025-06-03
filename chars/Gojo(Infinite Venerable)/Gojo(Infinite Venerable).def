@@ -1,0 +1,38 @@
+
+[Info]
+name = "Gojo(Infinite Venerable)";Original name:"Gojo(revealed)"
+displayname = "Gojo satoru";Original name:"Gojo(revealed)"
+versiondate = 24/12/2022;Original 1/8/2022
+mugenversion = 1.1
+author = "QINYAN" ;Original char by:"JOEY JOSTAR"
+pal.defaults =1
+
+[Files]
+sprite = Gojo(revealed).sff
+anim = Gojo(revealed).air
+sound = Gojo(revealed).snd
+cmd = Gojo(revealed).cmd
+cns = Gojo(revealed).cns
+st = Gojo(revealed).cns
+stcommon = common1.cns
+st1 = Specials.cns
+st2 = config.cns
+;st2 = Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 
+
+[Palette Keymap]
+a = 1 
+b = 2
+c = 3
+x = 4
+y = 5
+z = 6
+a2 = 7
+b2 = 8
+c2 = 9
+x2 = 10
+y2 = 11
+z2 = 12

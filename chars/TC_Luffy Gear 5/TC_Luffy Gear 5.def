@@ -1,0 +1,28 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Luffy Gear 5"
+displayname ="Luffy Gear 5"
+versiondate =8/08/2022
+mugenversion =1.0
+author ="TheCube(Made In Argentina)"
+pal.defaults =1
+
+[Files]
+sprite =TC_Luffy Gear 5.sff
+anim =TC_Luffy Gear 5.air
+sound =TC_Luffy Gear 5.snd
+cmd =TC_Luffy Gear 5.cmd
+cns =TC_Luffy Gear 5.cns
+stcommon =common1.cns
+st =TC_Luffy Gear 5.cns
+st1=IA.cns
+st2=Speciales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

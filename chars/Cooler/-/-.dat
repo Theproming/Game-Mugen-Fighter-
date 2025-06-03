@@ -1,0 +1,1711 @@
+
+[Statedef -2]
+
+[State 0,VarSet]
+type=VarSet
+trigger1=var(2)>=1
+Fv=18
+value=1
+
+[State 0,VarSet]
+type=VarSet
+Trigger1=NumHelper(10080)=1
+Fv=13
+value=1
+
+[State 0,VarSet]
+type=VarSet
+Triggerall=NumHelper(10080)=0
+trigger1=StateNo=2905
+Fv=13
+value=0
+
+[State 0,Helper]
+type=Helper
+TriggerALL=NumHelper(700)=0
+trigger1=StateNo=190
+helpertype=normal
+name="STAND-BY"
+ID=700
+stateno=700
+pos=0,0
+postype=p1
+facing=1
+keyctrl=0
+ownpal=1
+supermovetime=999999
+pausemovetime=999999
+
+[State -2,ChangeAnim]
+type=ChangeAnim
+TriggerALL=StateNo=190
+trigger1=Time=1
+value=Cond(Var(50)=0,190,10000)
+elem=AnimElemNo(0)
+ignorehitpause=1
+
+[State 0]
+type=null
+TriggerALL=StateNo=[190,199]
+trigger1=var(55)=12
+trigger1=var(55):=0
+trigger2=!var(55)
+trigger2=Cond(teamside=2,Command="fwd",Command="back")
+trigger2=var(55):=12
+
+[Statedef -3]
+
+[State -3]
+type=remappal
+trigger1=1
+source=0,0
+dest=VAR(54),cond(Fvar(13)=1,13,VAR(55))
+ignorehitpause=1
+
+[State -3]
+type=null
+trigger1=!Var(45)||Var(45)=2
+trigger1=var(54):=10
+
+[State -3]
+type=null
+TRIGGERALL=Var(53)=500
+trigger1=PalNo=1
+trigger1=var(55):=0
+trigger2=PalNo=2
+trigger2=var(55):=1
+trigger3=PalNo=3
+trigger3=var(55):=2
+trigger4=PalNo=4
+trigger4=var(55):=3
+trigger5=PalNo=5
+trigger5=var(55):=4
+trigger6=PalNo=6
+trigger6=var(55):=5
+trigger7=PalNo=7
+trigger7=var(55):=6
+trigger8=PalNo=8
+trigger8=var(55):=7
+trigger9=PalNo=9
+trigger9=var(55):=8
+trigger10=PalNo=10
+trigger10=var(55):=9
+trigger11=PalNo=11
+trigger11=var(55):=10
+trigger12=PalNo=12
+trigger12=var(55):=11
+
+[State -3]
+type=varSet
+trigger1=var(53)>0
+v=53
+value=var(53)-1
+ignorehitpause=1
+
+[State 0,VarSet]
+type=VarSet
+TriggerALL=NumHelper(700)>0
+trigger1=Helper(700),StateNo=700
+v=51
+value=0
+
+[State 0,VarSet]
+type=VarSet
+TriggerALL=NumHelper(700)>0
+trigger1=Helper(700),StateNo!=700
+v=51
+value=10000
+
+[State 0,P2 - In Floor]
+type=Helper
+triggerall=numhelper(8456)=0
+trigger1=p2stateno=8455
+name="P2 - In Floor"
+ID=8456
+stateno=8457
+pos=0,-30
+postype=p2
+facing=1
+keyctrl=0
+ownpal=1
+
+[State 0,P2 - Slidding in Floor]
+type=Helper
+triggerall=numhelper(8458)=0
+trigger1=p2stateno=8456
+name="P2 - Slidding in Floor"
+ID=8458
+stateno=8458
+pos=0,-30
+postype=p2
+facing=1
+keyctrl=0
+ownpal=1
+
+[State 0,P2 - Slidding in Floor]
+type=Helper
+triggerall=numhelper(8458)=0
+trigger1=p2stateno=8466
+name="P2 - Slidding in Floor"
+ID=8458
+stateno=8458
+pos=0,-30
+postype=p2
+facing=1
+keyctrl=0
+ownpal=1
+
+[State 0,P2 - Crash in Wall Impact]
+type=Helper
+triggerall=numhelper(8460)=0
+trigger1=p2stateno=8459
+name="P2 - Crash in Wall Impact"
+ID=8460
+stateno=8460
+pos=0,-30
+postype=p2
+facing=1
+keyctrl=0
+ownpal=1
+
+[State 0,P2 - Crash in Ground Impact]
+type=Helper
+triggerall=numhelper(8430)=0
+trigger1=p2stateno=8521
+name="P2 - Crash in Ground Impact"
+ID=8530
+stateno=8530
+pos=0,-30
+postype=p2
+facing=1
+keyctrl=0
+ownpal=1
+
+[State 0,P2 - Crash in Wall Impact]
+type=Helper
+triggerall=p2movetype=H
+triggerall=numhelper(2380)=0
+trigger1=p2stateno=2391
+name="P2 - Crash in Wall Impact"
+ID=2380
+stateno=2380
+pos=0,-30
+postype=p2
+facing=1
+keyctrl=0
+ownpal=1
+persistent=-1
+
+[State 0,P2 - Crash in Ground Impact]
+type=Helper
+triggerall=numhelper(8460)=0
+trigger1=p2stateno=30006
+name="P2 - Crash in Wall Impact"
+ID=8460
+stateno=8460
+pos=0,-30
+postype=p2
+facing=1
+keyctrl=0
+ownpal=1
+
+[State 0,P2 - In Floor]
+type=Helper
+triggerall=numhelper(30397)=0
+trigger1=p2stateno=30395
+name="P2 - In Floor"
+ID=30397
+stateno=30397
+pos=0,-30
+postype=p2
+facing=1
+keyctrl=0
+ownpal=1
+
+[State 0,P2 - Slidding in Floor]
+type=Helper
+triggerall=numhelper(30398)=0
+trigger1=p2stateno=30396
+name="P2 - Slidding in Floor"
+ID=30398
+stateno=30398
+pos=0,-30
+postype=p2
+facing=1
+keyctrl=0
+ownpal=1
+
+[State 0,Polvo en P2]
+type=Helper
+triggerall=p2movetype=H
+triggerall=numhelper(30480)=0
+trigger1=p2stateno=30490
+helpertype=normal
+name="Polvo en P2"
+ID=30480
+stateno=30480
+pos=0,0
+postype=p1
+ownpal=1
+
+[State 0,P2 - In Floor]
+type=Helper
+triggerall=numhelper(8456)=0
+trigger1=p2stateno=8540
+name="P2 - In Floor"
+ID=8456
+stateno=8457
+pos=0,-30
+postype=p2
+facing=1
+keyctrl=0
+ownpal=1
+
+[State 0,P2 - Crash in Ground Impact]
+type=Helper
+Persistent=0
+triggerall=numhelper(8545)=0
+trigger1=p2stateno=8541
+name="P2 - Crash in Ground Impact"
+ID=8545
+stateno=8545
+pos=0,-30
+postype=p2
+facing=1
+keyctrl=0
+ownpal=1
+
+[State 5210,1]
+type=PalFX
+triggerall=Fvar(13)=0
+triggerall=Time>=7
+trigger1=stateno=500
+time=-1
+add=128,10,170
+ignorehitpause=0
+
+[State 5210,1]
+type=PalFX
+triggerall=Fvar(13)=0
+trigger1=stateno!=500
+time=1
+add=0,0,0
+ignorehitpause=0
+
+[State 5210,1]
+type=PalFX
+triggerall=Fvar(13)=1
+triggerall=Time>=7
+trigger1=stateno=500
+time=-1
+add=128,32,16
+ignorehitpause=0
+
+[State 5210,1]
+type=PalFX
+triggerall=Fvar(13)=1
+trigger1=stateno!=500
+time=1
+add=0,0,0
+ignorehitpause=0
+
+[State 0,Helper]
+type=Helper
+triggerall=numhelper(33090)=0
+triggerall=var(2)=1
+trigger1=p2stateno=1505&&p2life=0
+helpertype=normal
+name="Destructive Finish"
+ID=33090
+stateno=33090
+pos=999,999
+postype=left
+facing=1
+keyctrl=0
+ownpal=1
+size.xscale=999
+size.yscale=999
+
+[State 0,NotHitBy]
+type=NotHitBy
+triggerall=stateno!=[30100,30102]
+triggerall=stateno!=33000
+triggerall=stateno!=33100
+trigger1=Fvar(13)=1
+value=,NA,SA,HA,NP,SP
+time=5
+ignorehitpause=1
+
+[State 0,LifeAdd]
+type=LifeAdd
+trigger1=Fvar(13)=1
+value=-var(4)
+ignorehitpause=1
+
+[State 0,Super Armor]
+type=Helper
+triggerall=numhelper(2990)=0
+trigger1=Fvar(13)=1
+helpertype=normal
+name="Super Armor"
+ID=2990
+stateno=2990
+pos=0,0
+postype=p1
+
+[State -3,Turn GF]
+type=ChangeAnim
+trigger1=var(2)=1
+trigger1=anim=5
+value=2005
+
+[State 0,VarSet]
+type=VarSet
+trigger1=(Fvar(18)=1)||(var(50)=1)
+v=2
+value=1
+
+[State 0,VarSet]
+type=VarSet
+triggerall=stateno=190
+TriggerALL=NumHelper(700)>0
+trigger1=Helper(700),StateNo=701
+v=2
+value=0
+
+[State 0,ChangeState]
+type=ChangeState
+triggerall=Fvar(13)=1
+trigger1=numhelper(10080)=0&&ctrl&&pos y>=0
+value=2905
+ctrl=0
+
+[State -3,VarSet,Golpeado]
+type=VarSet
+trigger1=var(2)=1
+v=10
+value=1000
+
+[State -3,VarSet,Apariencia]
+type=VarSet
+trigger1=var(2)=1
+v=11
+value=2000
+
+[State -3,VarSet,Specials]
+type=VarSet
+trigger1=var(2)=1
+v=14
+value=29000
+
+[State -3,VarSet,Golpeado]
+type=VarSet
+trigger1=!var(2)
+v=10
+value=0
+
+[State -3,VarSet,Apariencia]
+type=VarSet
+trigger1=!var(2)
+v=11
+value=0
+
+[State -3,VarSet,Specials]
+type=VarSet
+trigger1=!var(2)
+v=14
+value=0
+
+[State 0,Aura FX]
+type=Helper
+triggerall=numhelper(595)=0
+trigger1=Fvar(13)=1
+helpertype=normal
+name="Aura FX"
+ID=595
+stateno=595
+pos=0,0
+postype=p1
+ownpal=1
+size.xscale=.285
+size.yscale=.335
+Supermovetime=9999999999
+Pausemovetime=9999999999
+Supermove=9999999999
+Pausemove=9999999999
+
+[State 20,VarSet]
+type=VarSet
+TriggerALL=FVar(20)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[200,290]
+trigger2=StateNo!=[300,390]
+trigger2=StateNo!=[400,490]
+trigger2=StateNo!=[600,690]
+Fv=20
+value=0
+
+[State 21,VarSet]
+type=VarSet
+TriggerALL=FVar(21)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[200,290]
+trigger2=StateNo!=[300,390]
+trigger2=StateNo!=[400,490]
+Fv=21
+value=0
+
+[State 22,VarSet]
+type=VarSet
+TriggerALL=FVar(22)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[200,290]
+trigger2=StateNo!=[300,390]
+trigger2=StateNo!=[400,490]
+Fv=22
+value=0
+
+[State 23,VarSet]
+type=VarSet
+TriggerALL=FVar(23)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[200,290]
+trigger2=StateNo!=[300,390]
+trigger2=StateNo!=[400,490]
+Fv=23
+value=0
+
+[State 25,VarSet]
+type=VarSet
+TriggerALL=FVar(25)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[200,290]
+trigger2=StateNo!=[300,390]
+trigger2=StateNo!=[400,490]
+trigger2=StateNo!=[600,690]
+Fv=25
+value=0
+
+[State 26,VarSet]
+type=VarSet
+TriggerALL=FVar(26)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[200,290]
+trigger2=StateNo!=[300,390]
+trigger2=StateNo!=[400,490]
+Fv=26
+value=0
+
+[State 27,VarSet]
+type=VarSet
+TriggerALL=FVar(27)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[200,290]
+trigger2=StateNo!=[300,390]
+trigger2=StateNo!=[400,490]
+Fv=27
+value=0
+
+[State 28,VarSet]
+type=VarSet
+TriggerALL=FVar(28)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[200,290]
+trigger2=StateNo!=[300,390]
+trigger2=StateNo!=[400,490]
+Fv=28
+value=0
+
+[State 30,VarSet]
+type=VarSet
+TriggerALL=FVar(30)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[200,290]
+trigger2=StateNo!=[300,390]
+trigger2=StateNo!=[400,490]
+Fv=30
+value=0
+
+[State 31,VarSet]
+type=VarSet
+TriggerALL=FVar(31)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[200,290]
+trigger2=StateNo!=[300,390]
+trigger2=StateNo!=[400,490]
+Fv=31
+value=0
+
+[State 32,VarSet]
+type=VarSet
+TriggerALL=FVar(32)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[200,290]
+trigger2=StateNo!=[300,390]
+trigger2=StateNo!=[400,490]
+Fv=32
+value=0
+
+[State 33,VarSet]
+type=VarSet
+TriggerALL=FVar(33)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[200,290]
+trigger2=StateNo!=[300,390]
+trigger2=StateNo!=[400,490]
+Fv=33
+value=0
+
+[State 20,VarSet]
+type=VarSet
+TriggerALL=FVar(10)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[2200,2290]
+trigger2=StateNo!=[2300,2390]
+trigger2=StateNo!=[2400,2490]
+trigger2=StateNo!=[2600,2690]
+Fv=10
+value=0
+
+[State 20,VarSet]
+type=VarSet
+TriggerALL=FVar(11)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[2200,2290]
+trigger2=StateNo!=[2300,2390]
+trigger2=StateNo!=[2400,2490]
+trigger2=StateNo!=[2600,2690]
+Fv=11
+value=0
+
+[State 20,VarSet]
+type=VarSet
+TriggerALL=FVar(12)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[2200,2290]
+trigger2=StateNo!=[2300,2390]
+trigger2=StateNo!=[2400,2490]
+trigger2=StateNo!=[2600,2690]
+Fv=12
+value=0
+
+[State 20,VarSet]
+type=VarSet
+TriggerALL=FVar(14)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[2200,2290]
+trigger2=StateNo!=[2300,2390]
+trigger2=StateNo!=[2400,2490]
+trigger2=StateNo!=[2600,2690]
+Fv=14
+value=0
+
+[State 20,VarSet]
+type=VarSet
+TriggerALL=FVar(15)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[2200,2290]
+trigger2=StateNo!=[2300,2390]
+trigger2=StateNo!=[2400,2490]
+trigger2=StateNo!=[2600,2690]
+Fv=15
+value=0
+
+[State 20,VarSet]
+type=VarSet
+TriggerALL=FVar(16)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[2200,2290]
+trigger2=StateNo!=[2300,2390]
+trigger2=StateNo!=[2400,2490]
+trigger2=StateNo!=[2600,2690]
+Fv=16
+value=0
+
+[State 20,VarSet]
+type=VarSet
+TriggerALL=FVar(19)>0
+trigger1=StateNo=0
+trigger2=StateNo!=[2200,2290]
+trigger2=StateNo!=[2300,2390]
+trigger2=StateNo!=[2400,2490]
+trigger2=StateNo!=[2600,2690]
+Fv=19
+value=0
+
+[State 1000,SPECIAL1]
+type=ChangeState
+TriggerALL=Power>=1000
+TriggerALL=AILevel=0&&Command="SP1"
+TriggerALL=StateType!=A
+TriggerALL=MoveHit
+Trigger1=(StateNo=[200,290])
+Trigger2=(StateNo=[300,390])
+Trigger3=(StateNo=[400,490])
+value=1000
+
+[State 1000,FF SPECIAL1]
+type=ChangeState
+TriggerALL=Var(2)=1
+TriggerALL=Power>=1000
+TriggerALL=AILevel=0&&Command="SP1"
+TriggerALL=StateType!=A
+TriggerALL=MoveHit
+Trigger1=(StateNo=[2200,2290])
+Trigger2=(StateNo=[2300,2390])
+Trigger3=(StateNo=[2400,2490])
+value=30000
+
+[State 1000,FF SPECIAL1]
+type=ChangeState
+TriggerALL=Var(2)=1
+TriggerALL=Power>=1000
+TriggerALL=AILevel=0&&Command="SP1"
+TriggerALL=StateType=A
+TriggerALL=MoveHit
+Trigger1=(StateNo=[2600,2690])
+value=30001
+
+[State 1050,SPECIAL2]
+type=ChangeState
+TriggerALL=Power>=1000
+TriggerALL=AILevel=0&&Command="SP2"
+TriggerALL=StateType!=A
+TriggerALL=MoveHit
+Trigger1=(StateNo=[200,290])
+Trigger2=(StateNo=[300,390])
+Trigger3=(StateNo=[400,490])
+value=1100
+
+[State 1000,SPECIAL3]
+type=ChangeState
+TriggerALL=Power>=1000
+TriggerALL=AILevel=0&&Command="SP3"
+TriggerALL=MoveHit
+Trigger1=(StateNo=[200,290])
+Trigger2=(StateNo=[300,390])
+Trigger3=(StateNo=[400,490])
+Trigger4=(StateNo=[600,690])
+value=cond(pos y>=0,1200,1225)
+
+[State 1000,FF SPECIAL3]
+type=ChangeState
+TriggerALL=Var(2)=1
+TriggerALL=Power>=1500
+TriggerALL=StateType!=A
+TriggerALL=AILevel=0&&Command="SP3"
+TriggerALL=MoveHit
+Trigger1=(StateNo=[2200,2290])
+Trigger2=(StateNo=[2300,2320])
+Trigger3=(StateNo=[2400,2490])
+value=30200
+
+[State 1000,SPECIAL4]
+type=ChangeState
+TriggerALL=Power>=1000
+TriggerALL=AILevel=0&&Command="SP4"
+TriggerALL=StateType!=A
+TriggerALL=MoveHit
+Trigger1=(StateNo=[200,290])
+Trigger2=(StateNo=[300,390])
+Trigger3=(StateNo=[400,490])
+value=1300
+
+[State 1000,FF SPECIAL4]
+type=ChangeState
+TriggerALL=Var(2)=1
+TriggerALL=Power>=1250
+TriggerALL=AILevel=0&&Command="SP4"
+TriggerALL=MoveHit
+Trigger1=(StateNo=[2200,2290])
+Trigger2=(StateNo=[2300,2390])
+Trigger3=(StateNo=[2400,2490])
+Trigger4=(StateNo=[2600,2690])
+value=30300
+
+[State 1000,SPECIAL5]
+type=ChangeState
+TriggerALL=Power>=1000
+TriggerALL=AILevel=0&&Command="SP5"
+TriggerALL=MoveHit
+Trigger1=(StateNo=[200,290])
+Trigger2=(StateNo=[300,390])
+Trigger3=(StateNo=[400,490])
+Trigger4=(StateNo=[600,690])
+value=cond(pos y>=0,1400,1405)
+
+[State 1000,FF SPECIAL1]
+type=ChangeState
+TriggerALL=Var(2)=1
+TriggerALL=Power>=1500
+TriggerALL=AILevel=0&&Command="SP5"
+TriggerALL=MoveHit
+Trigger1=(StateNo=[2200,2290])
+Trigger2=(StateNo=[2300,2390])
+Trigger3=(StateNo=[2400,2490])
+Trigger4=(StateNo=[2600,2690])
+value=30400
+
+[State 1000,FF SPECIAL1]
+type=ChangeState
+TriggerALL=Var(2)=1
+TriggerALL=Power>=1500
+TriggerALL=AILevel=0&&Command="SP6"
+TriggerALL=MoveHit
+Trigger1=(StateNo=[2200,2290])
+Trigger2=(StateNo=[2300,2390])
+Trigger3=(StateNo=[2400,2490])
+Trigger4=(StateNo=[2600,2690])
+value=30500
+
+[State 1000,SPECIAL5]
+type=ChangeState
+TriggerALL=Power>=2000
+TriggerALL=AiLevel=0&&Command="SP6"
+TriggerALL=MoveHit
+Trigger1=(StateNo=[200,290])
+Trigger2=(StateNo=[300,390])
+Trigger3=(StateNo=[400,490])
+Trigger4=(StateNo=[600,690])
+value=1500
+
+[State 1000,FF ULTIMATE]
+type=ChangeState
+TriggerALL=Var(2)=1
+TriggerALL=Power>=3000
+TriggerALL=AILevel=0&&Command="ULTIMATE"
+TriggerALL=MoveHit
+Trigger1=(StateNo=[2200,2290])
+Trigger2=(StateNo=[2300,2390])
+Trigger3=(StateNo=[2400,2490])
+Trigger4=(StateNo=[2600,2690])
+value=33009
+
+[State 1000,FF ULTIMATE]
+type=ChangeState
+TriggerALL=Var(2)=1
+TriggerALL=Power>=3000
+TriggerALL=AILevel=0&&Command="x"
+TriggerALL=MoveHit
+Trigger1=(StateNo=[2200,2290])
+Trigger2=(StateNo=[2300,2390])
+Trigger3=(StateNo=[2400,2490])
+Trigger4=(StateNo=[2600,2690])
+value=33009
+
+[State 200]
+type=ChangeState
+TriggerALL=FVAR(20)<3
+TriggerALL=AILevel=0&&Command="a"
+TriggerALL=StateType!=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[200,210])||StateNo=220||StateNo=230||StateNo=240
+trigger2=(StateNo=[300,310])||StateNo=320||StateNo=330||StateNo=340
+trigger3=(StateNo=[400,410])||StateNo=420||StateNo=430||StateNo=440
+value=Cond(FVar(20)<1,200,Cond(FVar(20)<2,210,Cond(FVar(20)<3,220,230)))
+
+[State 300]
+type=ChangeState
+TriggerALL=FVAR(14)<1
+TriggerALL=AILevel=0&&Command="holddown"&&Command="a"
+TriggerALL=StateType!=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[2200,2210])||StateNo=2220||StateNo=2230||StateNo=2240
+trigger2=(StateNo=[2300,2310])||StateNo=2320||StateNo=2330||StateNo=2340||StateNo=2350
+trigger3=(StateNo=[2400,2410])||StateNo=2420||StateNo=2430||StateNo=2440
+value=2250
+
+[State FF 200]
+type=ChangeState
+TriggerALL=FVAR(10)<3
+TriggerALL=AILevel=0&&Command="a"
+TriggerALL=StateType!=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[2200,2210])||StateNo=2220||StateNo=2230||StateNo=2240
+trigger2=(StateNo=[2300,2310])||StateNo=2320||StateNo=2330||StateNo=2340||StateNo=2350
+trigger3=(StateNo=[2400,2410])||StateNo=2420||StateNo=2430||StateNo=2440
+value=Cond(FVar(10)<1,2200,Cond(FVar(10)<2,2210,Cond(FVar(10)<3,2220,2230)))
+
+[State 330]
+type=ChangeState
+TriggerALL=FVAR(16)=0
+TriggerALL=AILevel=0&&Command="holddown"&&Command="b"
+TriggerALL=StateType=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[2200,2210])||StateNo=2220||StateNo=2230||StateNo=2240
+trigger2=(StateNo=[2300,2310])||StateNo=2320||StateNo=2330||StateNo=2340
+trigger3=(StateNo=[2400,2410])||StateNo=2420||StateNo=2430||StateNo=2440
+trigger3=(StateNo=[2600,2610])||StateNo=6420||StateNo=6430||StateNo=6440
+value=2680
+
+[State 330]
+type=ChangeState
+TriggerALL=FVAR(16)=0
+TriggerALL=Power>=250
+TriggerALL=AILevel=0&&Command="holddown"&&Command="b"
+TriggerALL=StateType!=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[2200,2210])||StateNo=2220||StateNo=2230||StateNo=2240
+trigger2=(StateNo=[2300,2310])||StateNo=2320||StateNo=2330||StateNo=2340
+trigger3=(StateNo=[2400,2410])||StateNo=2420||StateNo=2430||StateNo=2440
+value=2350
+
+[State FF 200]
+type=ChangeState
+TriggerALL=FVAR(11)<4
+TriggerALL=AILevel=0&&Command="b"
+TriggerALL=StateType!=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[2200,2210])||StateNo=2220||StateNo=2230||StateNo=2240
+trigger2=(StateNo=[2300,2310])||StateNo=2320||StateNo=2330||StateNo=2340||StateNo=2350
+trigger3=(StateNo=[2400,2410])||StateNo=2420||StateNo=2430||StateNo=2440
+value=Cond(FVar(11)<1,2300,Cond(FVar(11)<2,2310,Cond(FVar(11)<3,2320,Cond(FVar(11)<4,2330,2360))))
+
+[State 300]
+type=ChangeState
+TriggerALL=FVAR(19)<1
+TriggerALL=AILevel=0&&Command="holddown"&&Command="c"
+TriggerALL=StateType!=A
+TriggerALL=MoveHit
+TriggerALL=Cond(StateNo=2200||StateNo=2300,MoveContact,MoveHit)
+trigger1=(StateNo=[2200,2210])||StateNo=2220||StateNo=2230||StateNo=2240
+trigger2=(StateNo=[2300,2310])||StateNo=2320||StateNo=2330||StateNo=2340
+trigger3=(StateNo=[2400,2410])||StateNo=2420||StateNo=2430||StateNo=2440
+value=Cond(FVar(19)<1,2480,Cond(FVar(19)<2,2485,Cond(FVar(19)<3,2490,Cond(FVar(19)<4,2495,2496))))
+
+[State 300]
+type=ChangeState
+TriggerALL=FVAR(13)!=1
+TriggerALL=FVAR(15)<1
+TriggerALL=Power>=500
+TriggerALL=AILevel=0&&Command="c"
+TriggerALL=StateType!=A
+TriggerALL=MoveHit
+TriggerALL=Cond(StateNo=2200||StateNo=2300,MoveContact,MoveHit)
+trigger1=(StateNo=[2200,2210])||StateNo=2220||StateNo=2230||StateNo=2240
+trigger2=(StateNo=[2300,2310])||StateNo=2320||StateNo=2330||StateNo=2340
+trigger3=(StateNo=[2400,2410])||StateNo=2420||StateNo=2430||StateNo=2440
+value=Cond(FVar(15)<1,2400,Cond(FVar(15)<2,2405,Cond(FVar(15)<3,2410,Cond(FVar(15)<4,2415,2420))))
+
+[State 300]
+type=ChangeState
+TriggerALL=FVAR(13)=1
+TriggerALL=FVAR(15)<1
+TriggerALL=Power>=500
+TriggerALL=AILevel=0&&Command="c"
+TriggerALL=StateType!=A
+TriggerALL=MoveHit
+TriggerALL=Cond(StateNo=2200||StateNo=2300,MoveContact,MoveHit)
+trigger1=(StateNo=[2200,2210])||StateNo=2220||StateNo=2230||StateNo=2240
+trigger2=(StateNo=[2300,2310])||StateNo=2320||StateNo=2330||StateNo=2340
+trigger3=(StateNo=[2400,2410])||StateNo=2420||StateNo=2430||StateNo=2440
+value=2405
+
+[State 300]
+type=ChangeState
+TriggerALL=FVAR(15)<1
+TriggerALL=Power>=500
+TriggerALL=AILevel=0&&Command="c"
+TriggerALL=StateType=A
+TriggerALL=MoveHit
+TriggerALL=Cond(StateNo=2200||StateNo=2300,MoveContact,MoveHit)
+trigger1=(StateNo=[2200,2210])||StateNo=2220||StateNo=2230||StateNo=2240
+trigger2=(StateNo=[2300,2310])||StateNo=2320||StateNo=2330||StateNo=2340
+trigger3=(StateNo=[2400,2410])||StateNo=2420||StateNo=2430||StateNo=2440
+trigger4=(StateNo=[2600,2610])||StateNo=2620||StateNo=2630||StateNo=2640
+value=Cond(FVar(15)<1,2620,Cond(FVar(15)<2,2625,Cond(FVar(15)<3,2630,Cond(FVar(15)<4,2635,26400))))
+
+[State 330]
+type=ChangeState
+TriggerALL=FVAR(28)=0
+TriggerALL=Power>=250
+TriggerALL=AILevel=0&&Command="holddown"&&Command="b"
+TriggerALL=StateType!=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[200,210])||StateNo=220||StateNo=230||StateNo=240
+trigger2=(StateNo=[300,310])||StateNo=320
+trigger3=(StateNo=[400,410])||StateNo=420||StateNo=430||StateNo=440
+value=350
+
+[State 300]
+type=ChangeState
+TriggerALL=FVAR(25)<4
+TriggerALL=AILevel=0&&Command="b"
+TriggerALL=StateType!=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[200,210])||StateNo=220||StateNo=230||StateNo=240
+trigger2=(StateNo=[300,310])||StateNo=320||StateNo=330||StateNo=340
+trigger3=(StateNo=[400,410])||StateNo=420||StateNo=430||StateNo=440
+value=Cond(FVar(25)<1,300,Cond(FVar(25)<2,310,Cond(FVar(25)<3,320,Cond(FVar(25)<4,330,340))))
+
+[State 300]
+type=ChangeState
+TriggerALL=FVAR(30)=0
+TriggerALL=AILevel=0&&Command="c"
+TriggerALL=StateType!=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[200,210])||StateNo=220||StateNo=230||StateNo=240
+trigger2=(StateNo=[300,310])||StateNo=320||StateNo=330||StateNo=340
+trigger3=(StateNo=[400,410])||StateNo=420||StateNo=430||StateNo=440
+value=400
+
+[State 200]
+type=ChangeState
+TriggerALL=FVAR(20)<2
+TriggerALL=AILevel=0&&Command="a"
+TriggerALL=StateType=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[600,610])
+trigger2=(StateNo=[620,630])
+value=Cond(FVar(20)<1,600,Cond(FVar(20)<2,605,606))
+
+[State 200]
+type=ChangeState
+TriggerALL=FVAR(10)<3
+TriggerALL=AILevel=0&&Command="a"
+TriggerALL=StateType=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[2600,2610])
+trigger2=(StateNo=[2620,2630])
+value=Cond(FVar(10)<1,2600,Cond(FVar(10)<2,2602,Cond(FVar(10)<3,2605,2606)))
+
+[State 200]
+type=ChangeState
+TriggerALL=FVAR(11)<2
+TriggerALL=AILevel=0&&Command="b"
+TriggerALL=StateType=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[2600,2610])
+trigger2=(StateNo=[2620,2630])
+value=Cond(FVar(11)<1,2610,Cond(FVar(11)<2,2615,2616))
+
+[State 330]
+type=ChangeState
+TriggerALL=FVAR(28)=0
+TriggerALL=AILevel=0&&Command="holddown"&&Command="b"
+TriggerALL=StateType=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[600,610])||StateNo=350
+trigger2=(StateNo=[620,630])
+value=616
+
+[State 345]
+type=ChangeState
+TriggerALL=FVAR(25)<2
+TriggerALL=AILevel=0&&Command="b"
+TriggerALL=StateType=A
+TriggerALL=MoveContact
+trigger1=(StateNo=[600,610])||StateNo=350
+trigger2=(StateNo=[620,630])
+value=Cond(FVar(25)<1,610,Cond(FVar(25)<2,615,616))
+
+[State 445,Aerial C1~3]
+type=ChangeState
+TriggerALL=Power>=200
+TriggerALL=AiLevel=0&&Command="c"
+TriggerALL=StateType=A
+TriggerALL=MoveHit
+trigger1=(StateNo=[600,610])||StateNo=350
+trigger2=(StateNo=[620,630])
+value=620
+
+[State 0,ChangeState]
+type=ChangeState
+triggerall=statetype!=A
+triggerall=power<3000
+triggerall=ailevel>0&&roundstate=2
+triggerall=ctrl
+triggerall=p2bodydist x>100
+trigger1=random<(ailevel * 100)/4
+value=500
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=AILevel>0&&RoundState=2
+triggerall=time>=12
+triggerall=stateno=500
+triggerall=ailevel>0
+trigger1=(p2bodydist x<50)||(enemy,numproj>0)
+trigger2=power=3000
+value=505
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType!=A
+TriggerALL=Ctrl
+Trigger1=P2BodyDist X>-15&&P2BodyDist X!=[-15,50]
+Trigger1=Random<(AILevel*100)/5
+value=60
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=AILevel>0&&RoundState=2
+triggerall=statetype!=A
+triggerall=backedgebodydist>50
+triggerall=ailevel>0&&roundstate=2
+triggerall=ctrl
+triggerall=p2bodydist x<50&&p2movetype=A
+triggerall=p2bodydist x<50&&p2movetype=H
+trigger1=random<(ailevel * 100)/4
+value=70
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType=A
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X>-25&&P2BodyDist X!=[-25,50]
+Trigger1=Random<(AILevel*100)/20
+value=100
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType=A
+TriggerALL=Ctrl
+TriggerALL=BackEdgeBodyDist>50
+Trigger1=(P2BodyDist X=[-25,75])
+Trigger1=Random<(AILevel*100)/30
+Trigger2=(P2BodyDist X=[-25,75])
+Trigger2=P2MoveType=A
+Trigger2=Random<(AILevel*100)/20
+value=110
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=Random<(AILevel*100)
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X>-5
+Trigger1=(P2BodyDist X<50&&P2MoveType=A)||(Enemy,NumProj>0)
+Trigger2=((P2BodyDist X=[-15,100])&&P2MoveType=A)||(Enemy,StateNo=[1000,2000])
+value=Cond(StateType=A,132,130)
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=Random<(AILevel*100)
+TriggerALL=(StateNo=[60,70])||(StateNo=[110,115])
+TriggerALL=Time>=10
+TriggerALL=P2BodyDist X>-5
+Trigger1=(P2BodyDist X<50&&P2MoveType=A)||(Enemy,NumProj>0)
+Trigger2=((P2BodyDist X=[-15,100])&&P2MoveType=A)||(Enemy,StateNo=[1000,2000])
+value=Cond(StateType=A,132,130)
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=statetype!=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X=[0,25]
+trigger1=random<(AILevel * 100)
+value=200
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=FVAR(28)=0
+TriggerALL=statetype!=A
+TriggerALL=Power>=250
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X=[0,55]
+TriggerALL=P2BodyDist Y=[-50,0]
+trigger1=random<(AILevel * 100)/3
+value=350
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=statetype!=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X=[0,35]
+TriggerALL=P2BodyDist Y=[-50,0]
+trigger1=random<(AILevel * 100)
+value=300
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=power>=250
+TriggerALL=statetype!=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X=[100,155]
+TriggerALL=P2BodyDist Y=[-50,0]
+trigger1=random<(AILevel * 100)
+value=400
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=statetype=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist x<35&&P2BodyDist y=[-20,0]
+trigger1=random<(AILevel * 100)
+value=616
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=statetype=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist x<30&&P2BodyDist y=[-20,0]
+trigger1=random<(AILevel * 100)
+value=600
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=statetype=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist x<30&&P2BodyDist y=[-20,0]
+trigger1=random<(AILevel * 100)
+value=610
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=power>=250
+TriggerALL=statetype=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=(P2BodyDist x=[0,35])&&P2BodyDist Y=[-30,25]
+trigger1=random<(AILevel * 100)/6
+value=620
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=POWER>=500
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType!=A
+TriggerALL=P2BodyDist X=[20,80]
+TriggerALL=P2BodyDist Y=[-50,0]
+TriggerALL=Ctrl
+Trigger1=Power<1500&&Random<(AILevel*100)/20
+Trigger2=Power>=1500&&Random<(AILevel*100)/15
+Trigger3=Life<LifeMax/2&&Random<(AILevel*100)/10
+value=1000
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=POWER>=1000
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType!=A
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist Y=[-50,0]
+Trigger1=Random<(AILevel * 100)/20
+Trigger1=P2BodyDist X<50
+Trigger2=Random<(AILevel * 100)/16
+Trigger2=EnemyNear,MoveType=A
+Trigger2=P2BodyDist X=[15,50]
+Trigger3=Random<(AILevel * 100)/12
+Trigger3=P2BodyDist X=[15,50]
+Trigger3=StateNo=60||StateNo=61
+Trigger4=P2BodyDist X=[0,40]
+Trigger4=Life<LifeMax/2&&Random<(AILevel*100)/10
+value=1100
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=POWER>=1500
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType!=A
+TriggerALL=P2BodyDist X>=50||Life<LifeMax/2&&P2BodyDist X>=25
+TriggerALL=P2BodyDist X<=100
+TriggerALL=Ctrl
+Trigger1=Power<1500&&Random<(AILevel*100)/20
+Trigger2=Power>=1500&&Random<(AILevel*100)*2
+Trigger3=Life<LifeMax/2&&Random<(AILevel*100)*2
+value=1200
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=POWER>=1500
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType=A
+TriggerALL=P2BodyDist X>=50||Life<LifeMax/2&&P2BodyDist X>=25
+TriggerALL=P2BodyDist X<=150
+TriggerALL=P2BodyDist Y>=-50
+TriggerALL=Ctrl
+Trigger1=Power<1500&&Random<(AILevel*100)/20
+Trigger2=Power>=1500&&Random<(AILevel*100)*2
+Trigger3=Life<LifeMax/2&&Random<(AILevel*100)*2
+value=1225
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=POWER>=1000
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType!=A
+TriggerALL=P2BodyDist X>=35||Life<LifeMax/2&&P2BodyDist X>=15
+TriggerALL=P2BodyDist X<=150
+TriggerALL=P2BodyDist Y>=-50
+TriggerALL=Ctrl
+Trigger1=Power<1500&&Random<(AILevel*100)/20
+Trigger2=Power>=1500&&Random<(AILevel*100)/15
+Trigger3=Life<LifeMax/2&&Random<(AILevel*100)/10
+value=1300
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=POWER>=1000
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType!=A
+TriggerALL=P2BodyDist X=[25,150]
+TriggerALL=Ctrl
+Trigger1=Power<1500&&Random<(AILevel*100)/15
+Trigger2=Power>=1500&&Random<(AILevel*100)/12
+Trigger3=Life<LifeMax/2&&Random<(AILevel*100)/8
+value=1400
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=POWER>=1000
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType=A
+TriggerALL=P2BodyDist X=[25,150]
+TriggerALL=P2BodyDist Y>=-50
+TriggerALL=Ctrl
+Trigger1=Power<1500&&Random<(AILevel*100)/15
+Trigger2=Power>=1500&&Random<(AILevel*100)/12
+Trigger3=Life<LifeMax/2&&Random<(AILevel*100)/8
+value=1405
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=POWER>=2000
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=Ctrl
+TriggerALL=EnemyNear,StateNo!=[5110,5120]
+TriggerALL=P2BodyDist X>=50
+TriggerALL=P2BodyDist Y>=-50
+Trigger1=Power<2000&&Random<(AILevel*100)/25
+Trigger2=Power>=2000&&Random<(AILevel*100)/20
+Trigger3=Life<LifeMax/2&&Random<(AILevel*100)/10
+value=1500
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=POWER>=3000
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType!=A
+TriggerALL=EnemyNear,MoveType!=H
+TriggerALL=EnemyNear,MoveType!=A
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X=[100,400]
+Trigger1=Random<(AILevel*100)*2
+value=3000
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=0
+TriggerALL=numhelper(950)=0
+TriggerALL=POWER>=2000
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType!=A
+TriggerALL=Ctrl
+Trigger1=Random<(AILevel*100)*2
+value=900
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=AILevel>0&&RoundState=2
+triggerall=time>=12
+triggerall=stateno=500
+triggerall=ailevel>0
+trigger1=(p2bodydist x<80)||(enemy,numproj>0)
+trigger2=power=3000
+value=508
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=statetype!=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X<80
+trigger1=random<(AILevel * 100)/5
+value=2250
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=statetype=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X<300
+TriggerALL=P2BodyDist Y=[-50,0]
+trigger1=random<(AILevel * 100)/8
+value=2260
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=statetype!=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X=[0,20]
+trigger1=random<(AILevel * 100)
+value=2200
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=FVAR(16)=0
+TriggerALL=statetype!=A
+TriggerALL=Power>=500
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X=[0,55]
+TriggerALL=P2BodyDist Y=[-50,0]
+trigger1=random<(AILevel * 100)/2
+value=2350
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=statetype!=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X=[0,40]
+trigger1=random<(AILevel * 100)
+value=2300
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=power>=500
+TriggerALL=statetype!=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X=[30,180]
+trigger1=random<(AILevel * 100)/2
+value=2400
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=FVAR(19)=0
+TriggerALL=power>=500
+TriggerALL=statetype!=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist X=[50,200]
+TriggerALL=P2BodyDist Y=[-50,0]
+trigger1=random<(AILevel * 100)
+value=2480
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=statetype=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist x<30&&P2BodyDist y=[-20,0]
+trigger1=random<(AILevel * 100)
+value=2600
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=statetype=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist x<30&&P2BodyDist y=[-20,0]
+trigger1=random<(AILevel * 100)
+value=2610
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=power>=500
+TriggerALL=statetype=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=P2BodyDist x<30&&P2BodyDist Y=[-30,25]
+trigger1=random<(AILevel * 100)/6
+value=2620
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=statetype=A
+TriggerALL=AILevel>0&&roundstate=2
+TriggerALL=Ctrl
+TriggerALL=(P2BodyDist x=[0,60])&&P2BodyDist Y=[-50,40]
+trigger1=random<(AILevel * 100)
+value=2680
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=POWER>=500
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType!=A
+TriggerALL=P2BodyDist X<150
+TriggerALL=Ctrl
+Trigger1=Power<500&&Random<(AILevel*100)/20
+Trigger2=Power>=500&&Random<(AILevel*100)/15
+Trigger3=Life<LifeMax/2&&Random<(AILevel*100)/10
+value=30000
+
+[State 0,ChangeState]
+type=ChangeState
+triggerall=var(2)=1
+triggerall=power>=1000
+triggerall=statetype!=A
+triggerall=ailevel>0&&roundstate=2
+triggerall=ctrl
+trigger1=p2bodydist x<50
+trigger1=random<(ailevel * 100)/4
+trigger1=p2movetype!=A
+trigger1=p2stateno=[1000,1500]
+trigger2=p2bodydist x>50
+trigger2=random<(ailevel * 100)/6
+trigger2=p2movetype!=A
+trigger3=p2bodydist x=[25,150]
+trigger3=random<(ailevel * 100)/4
+trigger3=p2movetype=A
+value=30100
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=POWER>=1250
+triggerall=statetype!=A
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=P2BodyDist X=[25,300]
+TriggerALL=Ctrl
+Trigger1=Power<1250&&Random<(AILevel*100)/15
+Trigger2=Power>=1250&&Random<(AILevel*100)/12
+Trigger3=Life<LifeMax/2&&Random<(AILevel*100)*2
+value=30200
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=POWER>=1250
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=Random<(AILevel*100)*2
+TriggerALL=MoveHit
+TriggerALL=EnemyNear,Pos Y=[-50,-15]
+Trigger1=StateNo=2250||StateNo=2350||StateNo=2380
+Trigger1=(StateNo=[2600,2690])
+value=30300
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=POWER>=1500
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=P2BodyDist X=[25,300]
+TriggerALL=Ctrl
+Trigger1=Power<1500&&Random<(AILevel*100)/15
+Trigger2=Power>=1500&&Random<(AILevel*100)/12
+Trigger3=Life<LifeMax/2&&Random<(AILevel*100)/8
+value=30400
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=POWER>=1500
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=Ctrl
+TriggerALL=EnemyNear,StateNo!=[5110,5120]
+TriggerALL=MoveHit
+Trigger1=Power<1500&&Random<(AILevel*100)/25
+Trigger2=Power>=1500&&Random<(AILevel*100)/20
+Trigger3=Life<LifeMax/2&&Random<(AILevel*100)/10
+Trigger4=(StateNo=[2600,2690])
+value=30500
+
+[State 0,ChangeState]
+type=ChangeState
+triggerall=var(2)=1
+triggerall=power>=3000
+triggerall=statetype!=A
+triggerall=ailevel>0&&roundstate=2
+triggerall=ctrl
+trigger1=p2bodydist x<50
+trigger1=random<(ailevel * 100)*2
+trigger1=p2movetype!=A
+trigger1=p2stateno=[1000,1500]
+trigger2=p2bodydist x>50
+trigger2=random<(ailevel * 100)/6
+trigger2=p2movetype!=A
+trigger3=p2bodydist x=[25,150]
+trigger3=random<(ailevel * 100)/4
+trigger3=p2movetype=A
+value=33000
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=POWER>=3000
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=Ctrl
+TriggerALL=EnemyNear,StateNo!=[5110,5120]
+TriggerALL=MoveHit
+Trigger1=Power<3000&&Random<(AILevel*100)/25
+Trigger2=Power>=3000&&Random<(AILevel*100)/20
+Trigger3=Life<LifeMax/2&&Random<(AILevel*100)/10
+Trigger4=(StateNo=[2200,2290])
+Trigger5=(StateNo=[2300,2390])
+Trigger6=(StateNo=[2600,2690])
+value=33009
+
+[State 0,ChangeState]
+type=ChangeState
+TriggerALL=VAR(2)=1
+TriggerALL=numhelper(10080)=0
+TriggerALL=POWER>=3000
+TriggerALL=AILevel>0&&RoundState=2
+TriggerALL=StateType!=A
+TriggerALL=Ctrl
+Trigger1=Random<(AILevel*100)*2
+value=2900
+
+[State 0,Saltando]
+type=PlaySnd
+triggerall=stateno=40
+trigger1=Time=1
+value=S40,1
+volume=55
+channel=-1
+
+[State 0,Super Jump]
+type=PlaySnd
+triggerall=stateno=80
+trigger1=Time=1
+value=S60,1
+volume=55
+channel=-1
+
+[State 0,Land]
+type=PlaySnd
+triggerall=stateno=52
+trigger1=time=1
+value=S52,cond(var(2)=1,2,1)
+volume=50
+
+[State 0,Run FWD]
+type=PlaySnd
+triggerall=stateno=60
+trigger1=time=1
+value=S40,2
+volume=50
+
+[State 0,Run BACK]
+type=PlaySnd
+triggerall=stateno=70
+trigger1=time=1
+value=S40,2
+volume=50
+
+[State 0,RemoveExplod]
+type=RemoveExplod
+TRIGGERALL=stateno!=500
+trigger1=time=1
+id=550
+
+[State 0,StopSnd]
+type=StopSnd
+TRIGGERALL=stateno!=190||stateno!=2190
+trigger1=time=1
+channel=4
+
+[State 0,StopSnd]
+type=StopSnd
+TRIGGERALL=stateno!=190||stateno!=2190
+trigger1=time=1
+channel=5
+
+[State 0,StopSnd]
+type=StopSnd
+TRIGGERALL=stateno!=190||stateno!=2190
+trigger1=time=1
+channel=6
+
+[State 0,StopSnd]
+type=StopSnd
+TRIGGERALL=stateno!=190||stateno!=2190
+trigger1=time=1
+channel=7
+
+[State 0,StopSnd]
+type=StopSnd
+TRIGGERALL=stateno!=500
+trigger1=time=1
+channel=1
+
+[State 0,StopSnd]
+type=StopSnd
+TRIGGERALL=stateno!=500
+trigger1=time=1
+channel=2
+
+[State 0,StopSnd]
+type=StopSnd
+TRIGGERALL=stateno!=500
+trigger1=time=1
+channel=3
+
+[State 0,StopSnd]
+type=StopSnd
+TRIGGERALL=stateno!=500
+trigger1=time=1
+channel=4
+
+[State 0,Double jump recharge]
+type=VarSet
+trigger1=statetype=S||statetype=C
+v=5
+value=0
+ignorehitpause=1
+
+[State 0,Double jump recharge]
+type=VarSet
+trigger1=statetype=S||statetype=C
+v=6
+value=0
+ignorehitpause=1
+
+[State 0,Golpeado]
+type=PlaySnd
+triggerall=!var(2)
+trigger1=movetype=H&&(stateno!=[0,155])&&!time&&HitOver=0&&random%3=0
+value=5000,1+random%7
+volumescale=300
+
+[State 0,Golpeado]
+type=PlaySnd
+triggerall=var(2)=1
+triggerall=stateno!=[30100,30102]
+triggerall=stateno!=33100
+trigger1=movetype=H&&(stateno!=[0,155])&&!time&&HitOver=0&&random%3=0
+value=5010,1+random%7
+volumescale=220
+
+[State 0,Solucion Stand Aire]
+type=ChangeState
+triggerall=stateno=0||stateno=20
+trigger1=pos y<0
+value=50
+ctrl=1

@@ -1,0 +1,39 @@
+A Light Attack
+B Medium Attack     fB Overhead
+C Heavy Attack      fC Secret Sensation
+
+Z Soaring Fist -300 fZ Shining Soul -200      dZ Anti Air -300
+
+X Assist             Y Super Dash         S Ki Charge    bZ Reflect
+
+A+B Dragon Rush      B+C Vanish -1000
+
+dfA Godly Display -800  dfB Rising Heat -1000  dfC/jdfC Accelerating Battle Spirit -1500
+                                                 (hold C) Unpolished Instinct -2000 
+
+dbA Godly Strike  -800      dbB Shinshin no Ken -1000  dbC Spirit Titan -2000
+(hold A ununcumbered mind)  (holdable)      
+
+jdfA Autonomous Fist -800   jdfB Autonomous Fist EX -1000
+
+jdbA Godly Strike -800      jdbB Transcendence -1000   jdbC Embodied Light -1200
+(hold A B or C ununcumbered mind, every variant is accessible pressing the button or Z for KameHameHa) 
+
+dfZ KameHameHa -800   fdfZ Leaping KameHameHa -800   dbZ Leaping KameHameHa -800 
+
+jdfZ Leaping KameHameHa -800   jdbZ Leaping KameHameHa -800 
+
+while lying down hold A+B/B+C ( recovery command )  Unrestrained Will -1000 ( Air OK )
+
+dfA+B/dfB+C jdfAB/jdfBC Silver Dragon Flash -3000
+
+dS Sparking Blast  
+(comeback mechanic 1 per match, 20% damage boost and life regeneration)
+- hold vanish to cancel the wallbounce attack 
+- jump cancel on block
+- more combo routes 
+- extra power bar
+
+
+
+you can change the assist and color palettes pressing up/down fwd/back on the intro

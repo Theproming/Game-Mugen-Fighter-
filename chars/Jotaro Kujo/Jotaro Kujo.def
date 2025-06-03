@@ -1,0 +1,24 @@
+[Info]
+name = "Jotaro Kujo(SC)"
+displayname = "Jotaro"
+versiondate = 28/11/2021
+mugenversion = 1.1
+author = "Martix720"
+pal.defaults = 1,2,3,4,5,6,7,8,9,10,11,12
+
+[Files]
+sprite = Jotaro.sff
+anim = Jotaro.air
+sound = Jotaro.snd
+cmd = Jotaro.cmd
+cns = Jotaro.cns
+stcommon = common1.cns
+st = Jotaro.cns
+st1 = IA.cns
+st2 = Specials.cns
+st3 = Super.cns
+st4 = Ultimate.cns
+
+[Arcade]
+intro.storyboard =
+ending.storyboard =

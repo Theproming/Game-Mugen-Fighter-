@@ -1,0 +1,261 @@
+---------------------------------------------------
+M.U.G.E.N ver 1.1.0 Beta 1 P1 (2013.08.11) status log
+---------------------------------------------------
+Parsing command line...
+Command line: G:\Project Kuliah\Game Fighter anime\project mppl game\Mugen 1.1 Dark Theme V2 2020\Anime fighter universe.exe
+Parse command line OK
+Initializing...
+Allocating game variables
+Reading configuration file...Setting language "en".
+OK
+Initializing timer...performance timer enabled...frequency 10000000...OK
+Initializing keyboard...configuring...OK
+Initializing input engine...OK
+Initializing sound...OK
+Initializing BGM...  OK
+Initializing graphics...gameCoord 1280x720...render mode 2_20...trying 1280x720x32 mode 0x0...success...OK
+Setting callbacks...OK
+Initializing font...OK
+Initializing game variables...OK
+Session RNG seed is 1736869535
+Loading system fonts...OK
+Loading options...
+Initializing pads...failed
+Reinitializing input engine...OK
+Remapping keys...OK
+Reinitializing input engine...OK
+Options loaded OK
+Loading system...
+  Load system file system.def...OK
+  Load system spr...OK
+  Load system snd...OK
+  Load system fonts...OK
+  Load system anim...OK
+  Load [Title Info]...OK
+  Load [Option Info]...OK
+  Load [Select Info]...OK
+  Load [VS Screen]...OK
+  Load [Victory Screen]...OK
+  Load [Demo Mode]...OK
+  Load [Continue Screen]...OK
+  Load [Game Over Screen]...OK
+  Load [Win Screen]...OK
+  Load [Survival Results Screen]...OK
+  Load [Default Ending]...OK
+  Load [End Credits]...OK
+  Load TitleBG...VersusBG...VictoryBG...SelectBG...OptionBG...OK
+  Loading fight data
+    Opening fight data file data/LEGACY Bars/fight.def...OK
+    Reading [Files]...OK
+    Loading fonts...OK
+    Load fight anim...OK
+    Reading [Lifebar]...[Turns Lifebar]...[Simul Lifebar]...[Powerbar]...
+    [Face]...[Simul Face]...[Turns Face]...
+    [Name]...[Simul Name]...[Turns Name]...
+    [Time]...[Combo]...[Round]...[WinIcon]...OK
+    Allocating explods...OK
+  Fight data loaded OK
+Lua initing
+Lua init complete
+System loaded OK
+Setting game resolution 1280x768...OK
+Initialize OK
+Set up graphics...timer...OK
+
+Entering gameflow loop
+Gameflow 0
+Gameflow 1
+Gameflow 2
+Initializing character info...OK
+Initializing select screen...finding characters...
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+
+  Error reading character file: chars/empty/empty.def
+OK
+Gameflow 3
+Playing storyboard Intro.def: scene
+Unloading match assets
+Freeing players
+Game loop init
+Life power and time reset
+Game loop deinit
+Finished playing storyboard Intro.def: scene
+Gameflow 4
+Entering mode select.
+Unloading match assets
+Freeing players
+Game loop init
+Mode select init
+End of mode select loop
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 0 on teamslot 0.0
+Char Naruto_Ashura_JUS.def (0) request pal 1 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Char Sukuna.def (8) request pal 2 0 (0) -> reserved 0 (0)
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+Setting game resolution 1280x720...OK
+  Allocating helpers...OK
+Match RNG seed: 2001802994
+Reset persist vars team 1
+Loading character chars/Naruto_Ashura_JUS/Naruto_Ashura_JUS.def...
+  Loading info...OK
+  Loading cmd command set Naruto_Ashura_JUS.cmd...OK
+  Loading cns Naruto_Ashura_JUS.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cns Kurama_Mode.cns...OK
+  Loading cmd state entry Naruto_Ashura_JUS.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Naruto_Ashura_JUS.sff...OK
+  Loading anim Naruto_Ashura_JUS.air...OK
+  Loading snd Naruto_Ashura_JUS.snd...OK
+  Loading pals...(1,1)OK
+  SFF v1.01 palette hack engaged.
+  11155 expressions (2807 on trigger lines)
+Character Naruto_Ashura_JUS.def loaded OK
+New char Naruto loaded into cache: (1/4 cached) Load time: 4650.000ms
+Loading character chars/Sukuna/Sukuna.def...
+  Loading info...OK
+  Loading cmd command set Sukuna.cmd...OK
+  Loading cns Sukuna1.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Sukuna.cns...OK
+  Loading cmd state entry Sukuna.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Sukuna.sff...OK
+  Loading anim Sukuna.air...OK
+  Loading snd Sukuna.snd...OK
+  Loading pals...OK
+  14987 expressions (2943 on trigger lines)
+Character Sukuna.def loaded OK
+New char Sukuna loaded into cache: (2/4 cached) Load time: 4810.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+Life power and time reset
+Life power and time reset
+Life power and time reset
+Life power and time reset
+Life power and time reset
+Life power and time reset
+Life power and time reset
+Life power and time reset
+Life power and time reset
+End of match loop
+Total time: 52.19s
+Total frames: 3114 	Skipped frames: 6
+Avg game rate: 59.67
+Avg frame rate: 59.55
+
+Finishing match
+Freeing players
+Save persist vars P56 Naruto
+Player Naruto cache count reduced: 0
+Save persist vars P57 Sukuna
+Player Sukuna cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Setting game resolution 1280x768...OK
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Game loop deinit
+Canceled character select.
+Gameflow 4
+Entering mode select.
+Unloading match assets
+Freeing players
+Game loop init
+Mode select init
+End of mode select loop
+Game loop deinit
+Returned from gameflow loop
+Deinitializing...
+Frames      : 4641
+Time elapsed: 119.670 sec
+ticks: 11967, tps: 100, start 457, end 12424
+
+Unloading match assets
+Freeing players
+Clearing player cache...Freeing player RC Naruto...CMD...CNS...SFF...AIR...SND...Misc...OK
+Freeing player RC Sukuna...CMD...CNS...SFF...AIR...SND...Misc...OK
+OK
+Freeing character info...OK
+Freeing select screen...OK
+Freeing fight data...OK
+Freeing system data...OK
+Freeing game variables...Unloading match assets
+Freeing players
+OK
+Deinitializing input...pad...keyboard...OK
+Removing callbacks...OK
+Deintializing timer...OK
+Deinitializing graphics...OK
+Deinitializing BGM...OK
+Deinitializing sound...OK
+Successful program termination.
+
+Log file successfully closed.

@@ -1,0 +1,25 @@
+
+[Info]
+name ="Sukuna"
+displayname ="Sukuna"
+versiondate =2021/1/31
+mugenversion = 1.0
+author = "Joey"
+pal.defaults =1
+
+[Files]
+sprite =Sukuna.sff
+anim =Sukuna.air
+sound =Sukuna.snd
+cmd =Sukuna.cmd
+cns =Sukuna1.cns
+stcommon =common1.cns
+st =Sukuna1.cns
+st1=IA.cns
+st2=Especiales.cns
+st3=Sukuna.cns
+
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

@@ -1,0 +1,24 @@
+[Info]
+name ="Sukuna Manga"
+displayname ="Sukuna Manga"
+versiondate =13/06/2024
+mugenversion =1.1
+author ="Dark Night"
+pal.defaults =1
+
+[Files]
+sprite =sff.sff
+anim =air.air
+sound =snd.snd
+cmd =cmd.cmd
+cns =cns.cns
+stcommon =common1.cns
+st =cns.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

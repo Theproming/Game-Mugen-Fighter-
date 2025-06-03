@@ -1,0 +1,73 @@
+MOVESET (4th FORM):
+
+A - Light Combo
+
+B - Tail Attack
+
+C - Ki Blast
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Destructive Ray                  -  Power (-500)
+
+D,DB,B,a - Psychic Ball                     -  Power (-1000)
+
+D,DF,F,b - Sauzer Blade (AIR OK)            -  Power (-1250)
+
+D,DB,B,b - Death Rush                       -  Power (-1250)
+
+D,DF,F,c - Full Power Energy Wave (AIR OK)  -  Power (-1000)
+
+D,DB,B,c - Death Ball (AIR OK)              -  Power (-2000)
+
+ULTIMATE: 
+
+D,DF,F,D,DF,F,a+b // X - Chaotic Death End       -  Power (-3000)
+
+
+Z - FINAL FORM   -  Power (-2000)
+
+
+
+
+MOVESET (FINAL FORM):
+
+
+A - Light Combo
+
+DOWN + A - Genocide Uppercut // (AIR) DOWN + A - Finishing Jab
+
+B - Heavy Combo 
+
+DOWN + B - Death Breaker // (AIR) DOWN + B - Falling Kick
+
+C - Ki Blast
+
+DOWN + C - Death Shaker
+
+S - Power Charge
+
+
+SPECIALS:
+
+D,DF,F,a - Death Beam (AIR OK)              -  Power (-1000)
+
+D,DB,B,a - Shadow Crusher                   -  Power (-1000)
+
+D,DF,F,b - Death Crasher                    -  Power (-1250)
+
+D,DB,B,b - Death Chaser (AIR OK)            -  Power (-1250)
+
+D,DF,F,c - Death Flash (AIR OK)             -  Power (-1000)
+
+D,DB,B,c - Death Drop (AIR OK)              -  Power (-1500)
+
+ULTIMATE: 
+
+D,DF,F,D,DF,F,a+b // X - Atomic Supernova   -  Power (-3000)
+
+
+
+Z - GOLDEN COOLER   -  Power (-3000)

@@ -1,0 +1,50 @@
+
+A - Phisic Attack
+
+B - Stand Attack
+
+C - Ora Ora
+
+S - Power Charge
+
+Down + a - Phisic Attack
+
+Down + b - Uppercut
+
+Down + c - Counter
+
+Down + a+b - Platinum Breath
+
+Combos:
+
+a,a,a,b,b,b,c,c,c
+
+a,a,a,c,c,up,a,a
+
+a,a,a,c,c,up,a,b,b,b
+
+a,a,a,b,b,down+b,b
+
+a,a,a,b,b,b,down+b,down+b,c,c,c,b
+
+Specials:
+
+D,DF,F,a - Platinum Hecatomb
+
+D,DB,B,a - Kuzo Inu!/Throw Rock
+
+D,DF,F,b - Star Finger!
+
+D,DB,B,b - I stopped time...
+
+D,DF,F,c - ORA ORA ORA!
+
+D,DB,B,c - My STAND will be the judge!
+
+Super: 
+
+D,DF,F,a+b - Here's your receipt
+
+ULTIMATE:
+
+D,DF,F,D,DF,F,a+b You pissed me off!

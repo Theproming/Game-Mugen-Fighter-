@@ -1,0 +1,28 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Tanjiro_HK"
+displayname ="Tanjiro"
+mugenversion =1.1
+author ="Entah99(edit by PedronickMugen)"
+pal.defaults =1
+
+[Files]
+sprite =Tanjiro_HK.sff
+anim =Tanjiro_HK.air
+sound =Tanjiro_HK.snd
+cmd =Tanjiro_HK.cmd
+cns =Tanjiro_HK.cns
+stcommon =common1.cns
+st =Tanjiro_HK.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

@@ -1,0 +1,42 @@
+;---------------------------------------------------------------------
+[Characters]
+Naruto_Ashura_JUS
+Sasuke_Rinnegan_JUS
+Jotaro Kujo
+DIO Over Heaven
+Gojo Manga Full
+Sukuna Manga V.4
+Tanjiro_HK
+Aizen Sousuke
+O27_RiasG
+Cooler
+DEKU MG9
+TC_Kaido_All_Forms
+randomselect
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+;-----------------------
+[ExtraStages]
+stages\Artic Caverns.def
+
+;---------------------------------------------------------------------
+[Options]
+arcade.maxmatches = 6,1,1,0,0,0,0,0,0,0
+team.maxmatches = 4,1,1,0,0,0,0,0,0,0
