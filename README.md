@@ -1,1 +1,1 @@
-# Game-Mugen-Fighter-
+# Game-Mugen-Fighter
